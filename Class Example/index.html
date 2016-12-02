@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Sample Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    Hello, this is my smashing Web Application
+    
+       <div class="jumbotron text-center">
+  <h1>Feedback Box</h1>
+         <a href=""><img src="Images/feedback.gif" class="img-fluid" alt="FeedbackBox" width=250></a>
+  <p>Resize this responsive page to see the effect!</p> 
+</div>
+  
+  <div class="container">
+ <!-- <div class="row">
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+  </div> -->
+      <form method="post" action="php/somePhp.php">
+        <div>
+          <label for="text">Feedback</label>
+          <textarea class="form-control"id="text" name="text" rows="3" style="min-width:100%"></textarea>
+        </div>
+        <input id="submit" name="submit" type="submit" value="Drop into Box" class="btn btn-primary"></input>
+      </form>
+      
+    </div>
+    
+  </body>
+  
+</html>
+
